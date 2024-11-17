@@ -1,20 +1,24 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 \usepackage{graphicx} % Required for inserting images
 \usepackage[T2A]{fontenc}
 \usepackage{geometry} % Managing page fields
 \geometry{top=2cm, bottom=2cm, left=3cm, right=2cm}
+\usepackage{booktabs}
 
 \title{Дизайн документ}
 \author{Авербух Семён, Бычкова Антонина, \\ Карташов Никита, Монёв Кирилл}
-
-
 \date{Ноябрь 2024}
 
+\sloppy
 \begin{document}
 
 \maketitle
 
+% Уменьшаем шрифт только для оглавления
+\begingroup
+\footnotesize
 \tableofcontents
+\endgroup
 
 \section{Введение}
 Данный дизайн-документ знакомит с концепцией и спецификацией разрабатывающейся игры. Целью документа является создание структурированного и подробного описания множества аспектов игры, начиная от самой концепции и заканчивая техническими деталями реализации.
